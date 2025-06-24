@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Add to Google Calendar",
+  "version": "1.0",
+  "description": "Create a Google Calendar event from selected text",
+  "permissions": ["contextMenus", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Add to Google Calendar",
+    "default_icon": {
+      "16": "icon_16.png",
+      "48": "icon_48.png",
+      "128": "icon_128.png"
+    }
+  },
+  "icons": {
+    "16": "icon_16.png",
+    "48": "icon_48.png",
+    "128": "icon_128.png"
+  }
+}
